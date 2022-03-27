@@ -12,6 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" />
+    <script src="js/controller.js"></script>
 
     <title>Project 0</title>
 </head>
@@ -21,7 +22,7 @@
     </div>
     <section id="search-section">
         <div id="search-block">
-            <input type="text" name="additem" id="item-to-add">
+            <input type="text" name="searchMaterial" id="material-to-search">
             <button id="search-btn">Search</button>
         </div>
         
@@ -36,26 +37,26 @@
 
     <section hidden id="display-result-section">
         <div class="results-block" id="name-block">
-            <h2>Name</h2>
+            <h2 id="name-id">Name</h2>
 
-            <h2>Description</h2>
+            <h2 id="description-id">Description</h2>
         </div>
         <div class="results-block" id="image-block">
-            <h2>Image</h2>
+            <h2 id="image-id">Image</h2>
         </div>
         <div class="results-block" id="info-block">
-            <h3>HP Recovered</h3>
-            <h3>Cooking Effect</h3>
-            <h3>Location</h3>
+            <h3 id="hp-id">HP Recovered</h3>
+            <h3 id="cook-id">Cooking Effect</h3>
+            <h3 id="location-id">Location</h3>
         </div>
     </section>
 
     <div hidden id="error-block">
-        <p>Sorry, no material was found.</p>
+        <p id="no-material-message">Sorry, no material was found.</p>
     </div>
     
     <div id="table-block">
-        <table class="history-table">
+        <table id="history-table-id" class="history-table">
             <thead>
                 <tr>
                 <th>Name</th>
@@ -65,7 +66,7 @@
                 <th>Location</th>
                 </tr>
             </thead>
-                <tbody>
+            <tbody>
             </tbody>
         </table>
     </div>

@@ -59,15 +59,13 @@ div {
 }
 
 #display-result-section {
-    display: flex;
     justify-content: space-between;
-    margin-top: 4em;
-    display: none;
+    margin: 2em 2em;
 }
 
 .results-block {
     width: 20vw;
-    height: 20vw;
+    height: 15vw;
     margin: auto;
     background-color: #C0C0C0;
     text-align: center;
@@ -81,6 +79,14 @@ div {
     text-align: center;
     color: #c19a6b;
     font-size: 3em;
+    margin-bottom: 1em;
+}
+
+#no-material-message {
+    display: inline;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 2.5em;
 }
 
 .history-table {
