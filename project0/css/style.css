@@ -1,8 +1,22 @@
+/* 
+    Created By: Dennis Lee
+    Created On: 03/27/2022
+    Last Updated: 03/27/2022
+    Description: Project 0 css styling
+ */
+
+/*
+    Importing custom font style for the webpage with correct
+    path to fonts folder
+*/
 @font-face {
     font-family:botwFont;
     src: url("../fonts/HyliaSerif.otf") format("opentype");
 }
 
+/*
+    Apply font style to all text in div elements
+*/
 div {
     font-family: botwFont;
 }
@@ -22,6 +36,9 @@ div {
     margin-top: 0.8em;
 }
 
+/* 
+    Have the error logo display inline with the error message
+*/
 #error-logo {
     display: inline-flex;
     justify-content: center;
