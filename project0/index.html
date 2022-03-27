@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+
     <title>Project 0</title>
 </head>
 <body>
     <div id="title-block">
-        <h1>Title of Page</h1>
+        <h1>BOTW Hyrule Compendium</h1>
     </div>
     <section id="search-section">
         <div id="search-block">
@@ -17,28 +19,49 @@
         </div>
         
         <div hidden id="error-input">
-            <img src="" alt="default error message">
-            <p>Invalid input</p>
+            <img id="error-logo" src="images/error_warning.jpg" alt="default error message">
+            <p id="error-invalid-msg">Invalid input</p>
         </div>
         <div id="search-link">
-            <a href="#">What to search?</a>
+            <a href="https://github.com/gadhagod/Hyrule-Compendium-API/blob/master/compendium/materials.json">What can I search?</a>
         </div>
     </section>
 
-    <section id="display-result-section">
+    <section hidden id="display-result-section">
         <div class="results-block" id="name-block">
+            <h2>Name</h2>
 
+            <h2>Description</h2>
         </div>
         <div class="results-block" id="image-block">
-            
+            <h2>Image</h2>
         </div>
         <div class="results-block" id="info-block">
-            
+            <h3>HP Recovered</h3>
+            <h3>Cooking Effect</h3>
+            <h3>Location</h3>
         </div>
     </section>
-    
+
     <div hidden id="error-block">
-        <p>Error message hidden by default</p>
+        <p>Sorry, no material was found.</p>
     </div>
+    
+    <div id="table-block">
+        <table class="history-table">
+            <thead>
+                <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>HP Recovered</th>
+                <th>Cooking Effect</th>
+                <th>Location</th>
+                </tr>
+            </thead>
+                <tbody>
+            </tbody>
+        </table>
+    </div>
+    
 </body>
 </html>

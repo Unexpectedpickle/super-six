@@ -1,0 +1,81 @@
+@font-face {
+    font-family:botwFont;
+    src: url("../fonts/HyliaSerif.otf") format("opentype");
+}
+
+div {
+    font-family: botwFont;
+}
+
+#title-block {
+    display:flex;
+    justify-content: center;
+}
+
+#search-block {
+    display: flex;
+    justify-content: center;
+}
+
+#error-input {
+    text-align: center;
+    margin-top: 0.8em;
+}
+
+#error-logo {
+    display: inline-flex;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+#error-invalid-msg {
+    display: inline;
+    vertical-align: middle;
+}
+
+#search-link {
+    display:flex;
+    justify-content: center;
+    margin: 1em 1em;
+}
+
+#display-result-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4em;
+    display: none;
+}
+
+.results-block {
+    width: 20vw;
+    height: 20vw;
+    margin: auto;
+    background-color: #C0C0C0;
+    text-align: center;
+}
+
+#error-block {
+    width: 50vw;
+    height: 10vw;
+    margin: auto;
+    background-color: #C0C0C0;
+    text-align: center;
+    color: #c19a6b;
+    font-size: 3em;
+}
+
+.history-table {
+    width: 95%;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #ffcc00;
+    border-style: solid;
+    color: #000000;
+}
+
+.history-table thead {
+    background-color: #ffcc00;
+}
