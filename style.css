@@ -1,0 +1,47 @@
+/* 
+  Created By: Anna K. Phung
+  Last Updated: March 28, 2022
+  Description: Stylig for index.html
+*/
+
+:root {
+  --red: #FF9AA2;
+  --green: #AEDBB0;
+  --yellow: #FEFFE1;
+  --blue: #8BD2EC;
+  --brown: #704523;
+}
+
+/* removes extra padding around page */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--yellow);
+}
+
+header {
+  background-color: var(--red);
+  text-align: center;
+  padding: 2%;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px 0px 5px 0px;
+}
+
+footer {
+  background-color: var(--green);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1%;
+  text-align: center;
+  /* clear: both; */
+}
+
+.container {
+  position: relative;
+}
