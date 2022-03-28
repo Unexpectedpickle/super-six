@@ -101,4 +101,17 @@ div {
 
 .history-table thead {
     background-color: #ffcc00;
+    text-align: left;
+}
+
+.history-table td {
+    max-width: 15vw;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#image-id {
+    max-width: 50vw;
+    max-height: 10vw;
+    border-radius: 50%;
 }
