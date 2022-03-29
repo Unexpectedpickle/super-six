@@ -1,17 +1,21 @@
 /* 
   Created By: Anna K. Phung
   Last Updated: March 28, 2022
-  Description: Stylig for index.html
+  Description: Styling for index.html
 */
 
 :root {
   --red: #FF9AA2;
+  --yellow: #FEE4B3;
   --green: #AEDBB0;
-  --yellow: #FEFFE1;
-  --blue: #8BD2EC;
+  --blue: #9FCAE9;
+  --dark-blue: #6893DE;
   --brown: #704523;
+  --black: #30323d;
+  --white: #F6F4EC;
 }
 
+/* element */
 /* removes extra padding around page */
 * {
   box-sizing: border-box;
@@ -21,13 +25,13 @@
 
 body {
   background-color: var(--yellow);
+  color: var(--black);
 }
 
 header {
   background-color: var(--red);
   text-align: center;
   padding: 2%;
-  position: fixed;
   width: 100%;
   box-shadow: 0px 0px 5px 0px;
 }
@@ -37,11 +41,24 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  padding: 1%;
+  padding: .5%;
   text-align: center;
-  /* clear: both; */
 }
 
+ul {
+  list-style-type: square;
+}
+
+/* class */
 .container {
-  position: relative;
+  /* position: relative; */
+  color: var(--brown);
+  margin: 5%;
+  text-align: center;
+  background-color: var(--white);
+}
+
+/* id */
+#srch-button {
+  color: var(--black);
 }
