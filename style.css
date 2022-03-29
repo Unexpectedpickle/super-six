@@ -49,6 +49,20 @@ ul {
   list-style-type: square;
 }
 
+/* id */
+
+/* #results-tbl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */
+
+/* #vil-input {
+
+} */
+
+
 /* class */
 .container {
   /* position: relative; */
@@ -56,9 +70,13 @@ ul {
   margin: 5%;
   text-align: center;
   background-color: var(--white);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-/* id */
-#srch-button {
+.srch-btn {
   color: var(--black);
 }
