@@ -65,7 +65,8 @@ div {
 
 .results-block {
     width: 20vw;
-    height: 50vh;
+    min-width: 320px;
+    height: 20em;
     margin: auto;
     background-color: #C0C0C0;
     text-align: center;
@@ -73,7 +74,8 @@ div {
 
 #error-block {
     width: 50vw;
-    height: 30vh;
+    height: 4em;
+    min-width: 600px;
     margin: auto;
     background-color: #C0C0C0;
     text-align: center;
@@ -111,7 +113,7 @@ div {
 }
 
 #image-id {
-    max-width: 50vw;
-    max-height: 30vh;
+    max-width: 12em;
+    max-height: 12em;
     border-radius: 50%;
 }
