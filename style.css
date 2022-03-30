@@ -28,10 +28,15 @@ body {
   color: var(--black);
 }
 
+h3 {
+  margin-top: 5px;
+
+}
+
 header {
   background-color: var(--red);
   text-align: center;
-  padding: 2%;
+  padding: .5%;
   width: 100%;
   box-shadow: 0px 0px 5px 0px;
 }
@@ -46,18 +51,18 @@ footer {
 }
 
 ul {
-  list-style-type: square;
+  display: inline;
+  list-style-type: none;
+  text-align: center;
 }
 
-/* id */
-
-
-
 /* class */
+
 .container {
-  /* position: relative; */
   color: var(--brown);
-  margin: 5%;
+  margin-top: 25px;
+  margin-left: 25%;
+  margin-right: 25%;
   text-align: center;
   background-color: var(--white);
 
@@ -69,4 +74,13 @@ ul {
 
 .srch-btn {
   color: var(--black);
+}
+
+.logo {
+  width: 10%;
+}
+
+.results-tbl {
+  margin-left: 3%;
+  margin-right: 3%;
 }

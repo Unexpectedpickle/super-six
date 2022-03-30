@@ -24,13 +24,13 @@ button.addEventListener('click', function(){
       let blathersPhrase = data['museum-phrase'];
       let iconValue = data['id'];
       
-      bugValue.innerHTML = "Name: " + nameValue;
-      month.innerHTML = "Month Available: " + monthAvailability;
-      time.innerHTML = "Time Available: " + timeAvailability;
-      locationType.innerHTML = "Location: " + locationValue;
-      rarity.innerHTML = "Rarity: " + rarityValue;
-      price.innerHTML = "Price: " + priceValue + " Bells";
-      museumPhrase.innerHTML = "Blathers Fun Fact: " + blathersPhrase;
+      bugValue.innerHTML = nameValue;
+      month.innerHTML = monthAvailability;
+      time.innerHTML = timeAvailability;
+      locationType.innerHTML = locationValue;
+      rarity.innerHTML = rarityValue;
+      price.innerHTML = priceValue + " Bells";
+      museumPhrase.innerHTML = blathersPhrase;
       bugIcon.setAttribute("src", "https://acnhapi.com/v1/icons/bugs/" + iconValue);
     })
 
