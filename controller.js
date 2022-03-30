@@ -22,11 +22,11 @@ button.addEventListener('click', function(){
 
       bugValue.innerHTML = "Name: " + nameValue;
       month.innerHTML = "Month Available: " + monthAvailability;
-      time.innerHTML = timeAvailability;
-      locationType.innerHTML = locationValue;
-      rarity.innerHTML = rarityValue;
-      price.innerHTML = priceValue;
-      museumPhrase.innerHTML = blathersPhrase;
+      time.innerHTML = "Time Available: " + timeAvailability;
+      locationType.innerHTML = "Location: " + locationValue;
+      rarity.innerHTML = "Rarity: " + rarityValue;
+      price.innerHTML = "Price: " + priceValue;
+      museumPhrase.innerHTML = "Blathers Fun Fact: " + blathersPhrase;
     })
 
     .catch(err => alert("Sorry! We don't know that bug."))
