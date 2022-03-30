@@ -1,0 +1,115 @@
+<!--
+    Created by: Grant Welton
+    Creation Date: 25 Mar 2022
+    Last Updated: 29 Mar 2022
+    Description: Page that links to an external API
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>PokéFighter</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="styling.css"/>
+    <!-- <script type="module" src="controller.js"/> -->
+</head>
+
+<body>
+    <!--The code encased in the following section is for the banner-->
+    <section id="section1" class="header">
+        <h1>
+            <p id="p1" class="paragraph">Fighter 1:
+                <input id="user-input1"></input>
+                <button>Submit</button>
+                Fighter 2:
+                <input id="user-input2"></input>
+            </p>
+        </h1>
+    </section>
+    <!--The code in the following section is for the user-selected pokemon-->
+    <section id="fighters"> 
+        <section id="section2" class="fighter-pokemon">
+            <img src="selectedPokemon.jpg" class="selectedPokemon"/>
+            <table id="table">
+                <tr>
+                    <td>#</td>
+                    <td>Name</td>
+                    <td>Type</td>
+                    <td>Total</td>
+                    <td>HP</td>
+                    <td>Attack</td>
+                    <td>Defense</td>
+                    <td>Sp. Attack</td>
+                    <td>Sp. Defense</td>
+                    <td>Speed</td>
+                </tr>
+                <!-- <tr>
+                    <td>#</td>
+                    <td>Name</td>
+                    <td>Type</td>
+                    <td>Total</td>
+                    <td>HP</td>
+                    <td>Attack</td>
+                    <td>Defense</td>
+                    <td>Sp. Attack</td>
+                    <td>Sp. Defense</td>
+                    <td>Speed</td>
+                </tr> -->
+            </table>
+        </section>
+        <button id="fightButton">Fight!</button>
+        <section class="fighter-pokemon">
+            <img src="charizard.jpg" class="selectedPokemon"/>
+            <table id="table">
+                <tr>
+                    <td>#</td>
+                    <td>Name</td>
+                    <td>Type</td>
+                    <td>Total</td>
+                    <td>HP</td>
+                    <td>Attack</td>
+                    <td>Defense</td>
+                    <td>Sp. Attack</td>
+                    <td>Sp. Defense</td>
+                    <td>Speed</td>
+                </tr>
+                <!-- <tr>
+                    <td>#</td>
+                    <td>Name</td>
+                    <td>Type</td>
+                    <td>Total</td>
+                    <td>HP</td>
+                    <td>Attack</td>
+                    <td>Defense</td>
+                    <td>Sp. Attack</td>
+                    <td>Sp. Defense</td>
+                    <td>Speed</td>
+                </tr> -->
+            </table>
+        <!-- <ul>
+            <li>About</li>
+            <li>History</li>
+            <li>Fun Facts</li>
+        </ul> -->
+        </section>
+    </section>      
+    <!--The footer code contains links to external sites that pokemon fans would enjoy-->
+    <footer id="footer">
+        <p id="footer-p">For nostalgia and merch, click here!</p> 
+            <section id="footer-section">
+                    <a href="https://www.youtube.com/watch?v=Zyt2GKb6qWw">
+                        <img class="link-image" src="ashNpikachu.jpg" alt="Picture of Ash Ketcham 
+                        and Pikachu"/>
+                    </a>
+                    <a href="https://www.pokemon.com/us/">
+                        <img class="link-image" src="pokemonGang.jpg"/>
+                    </a>
+                    <a href="https://www.pokemoncenter.com/">
+                        <img class="link-image" src="teamRocket.jpg" alt="Picture of Team Rocket"/>
+                    </a>
+            </section>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,59 @@
+/* 
+    Created by: Grant Welton
+    Creation Date: 25 Mar 2022
+    Last Updated: 29 Mar 2022
+    Description: stylesheet for pokemon site
+*/
+
+/* body {
+    background-image: url(arena.jpg);
+} */
+
+#section1 {
+    background-color:brown;
+    display: inline;
+    display:flex;
+    justify-content: center;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.link-image {
+    width: 333px;
+    height: 223px;
+}
+
+.fighter-pokemon {
+    display: inline-block;
+    /* display: flex; */
+    justify-content: center;
+}
+
+#fighters {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-end;
+}
+
+.link-image {
+    width: 250px;
+    height: 150px;
+}
+
+p {
+    display:flex;
+    justify-content: center;
+}
+
+#fightButton {
+    height: 50px;
+    width: 100px;
+    /* display: flex;
+    align-items: center; */
+}
