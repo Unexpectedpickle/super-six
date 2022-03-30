@@ -15,7 +15,7 @@
   --white: #F6F4EC;
 }
 
-/* element */
+/* elements */
 /* removes extra padding around page */
 * {
   box-sizing: border-box;
@@ -26,6 +26,7 @@
 body {
   background-color: var(--yellow);
   color: var(--black);
+  margin-bottom: 25%;
 }
 
 h3 {
@@ -56,13 +57,22 @@ ul {
   text-align: center;
 }
 
-/* class */
+table {
+  width: 100%;
+  border-spacing: 50px 0px;
 
+}
+
+td {
+  vertical-align: top;
+}
+
+/* classes */
 .container {
   color: var(--brown);
   margin-top: 25px;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 15%;
+  margin-right: 15%;
   text-align: center;
   background-color: var(--white);
 
@@ -78,9 +88,4 @@ ul {
 
 .logo {
   width: 10%;
-}
-
-.results-tbl {
-  margin-left: 3%;
-  margin-right: 3%;
 }
