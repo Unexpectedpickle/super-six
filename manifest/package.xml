@@ -40,5 +40,9 @@
         <members>*</members>
         <name>Role</name>
     </types>
+    <types>
+        <members>*</members>
+        <name>CustomApplication</name>
+    </types>
     <version>54.0</version>
 </Package>
