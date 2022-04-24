@@ -39,5 +39,17 @@
         <members>Contract.Job_Completed__c</members>
         <name>CustomField</name>
     </types>
+    <types>
+        <members>Construction</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>FlexiPage</name>
+    </types>
     <version>54.0</version>
 </Package>
