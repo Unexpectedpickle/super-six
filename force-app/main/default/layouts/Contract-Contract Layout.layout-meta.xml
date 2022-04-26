@@ -184,13 +184,12 @@
     <showInteractionLogPanel>false</showInteractionLogPanel>
     <showRunAssignmentRulesCheckbox>true</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
-<<<<<<< HEAD
-=======
+
     <summaryLayout>
         <masterLabel>00h1D000006xp4H</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>
     </summaryLayout>
->>>>>>> e1ea0e982d34e70bdc86bbe879ac0d001e81f6ea
+
 </Layout>
