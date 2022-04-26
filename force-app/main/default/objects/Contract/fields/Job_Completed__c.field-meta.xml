@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Job_Completed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Calculates the actual total cost of the job.</description>
+    <externalId>false</externalId>
+    <label>Job Completed</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>
