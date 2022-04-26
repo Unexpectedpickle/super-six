@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <description>This flow exists to be called on by the Foreman Ready Email flow.</description>
+    <interviewLabel>Error Screen Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Error Screen Flow</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <screens>
+        <description>This is a screen to be called by the Foreman Ready Email flow.</description>
+        <name>Error_Screen</name>
+        <label>Error Screen</label>
+        <locationX>176</locationX>
+        <locationY>158</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>Error_Message</name>
+            <fieldText>&lt;p&gt;&lt;b style=&quot;color: rgb(253, 3, 3);&quot;&gt;Oops!&lt;/b&gt; It looks like your email to the customer didn&apos;t send. Make sure you have a valid email saved for the contact associated with this contract, then try again.&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Error_Screen</targetReference>
+        </connector>
+    </start>
+    <status>Draft</status>
+</Flow>
