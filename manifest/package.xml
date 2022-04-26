@@ -6,6 +6,7 @@
     </types>
     <types>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <members>Security</members>
         <name>Settings</name>
     </types>
@@ -33,12 +34,15 @@
         <members>Case</members>
         <name>CustomObject</name>
 =======
+=======
+>>>>>>> e1ea0e982d34e70bdc86bbe879ac0d001e81f6ea
         <members>Contract.Foreman_Start_Job__c</members>
         <name>CustomField</name>
     </types>
     <types>
         <members>*</members>
         <name>Flow</name>
+<<<<<<< HEAD
 >>>>>>> e1ea0e982d34e70bdc86bbe879ac0d001e81f6ea
     </types>
     <types>
@@ -64,6 +68,8 @@
     <types>
         <members>Case</members>
         <name>CustomObject</name>
+=======
+>>>>>>> e1ea0e982d34e70bdc86bbe879ac0d001e81f6ea
     </types>
     <types>
         <members>*</members>
