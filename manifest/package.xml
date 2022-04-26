@@ -17,6 +17,10 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>Contract-Contract Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
         <members>Contract.Select_Products__c</members>
         <members>Contract.Square_Feet__c</members>
         <members>Contract.Total_Cost__c</members>
