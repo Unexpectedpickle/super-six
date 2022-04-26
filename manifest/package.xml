@@ -16,5 +16,21 @@
         <members>*</members>
         <name>Role</name>
     </types>
+    <types>
+        <members>Contract</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Contract-Contract Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Contract.Select_Products__c</members>
+        <members>Contract.Square_Feet__c</members>
+        <members>Contract.Total_Cost__c</members>
+        <members>Contract.Estimated_Cost__c</members>
+        <members>Contract.Job_Completed__c</members>
+        <name>CustomField</name>
+    </types>
     <version>54.0</version>
 </Package>
