@@ -9,6 +9,30 @@
         <name>Settings</name>
     </types>
     <types>
+        <members>Account</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Lead</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Contact</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Opportunity</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Order</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Case</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
         <members>*</members>
         <name>Profile</name>
     </types>
