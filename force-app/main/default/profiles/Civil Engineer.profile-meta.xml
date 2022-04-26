@@ -62,12 +62,22 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8dbfb47 (merge security settings)
         <editable>true</editable>
         <field>Contract.Foreman_Start_Job__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+<<<<<<< HEAD
+=======
+        <editable>false</editable>
+>>>>>>> bfbe539 (security test)
+=======
+>>>>>>> 8dbfb47 (merge security settings)
         <field>Contract.Job_Completed__c</field>
         <readable>true</readable>
     </fieldPermissions>
