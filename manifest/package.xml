@@ -5,91 +5,24 @@
         <name>ApexClass</name>
     </types>
     <types>
-<<<<<<< HEAD
         <members>Security</members>
         <name>Settings</name>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 19a1927f4b1ec0a87679c0ff9a18d19c07ecec04
-        <members>Contract.Foreman_Start_Job__c</members>
-        <name>CustomField</name>
     </types>
     <types>
         <members>*</members>
         <name>Flow</name>
-=======
-=======
->>>>>>> 8dbfb47 (merge security settings)
-        <members>Security</members>
-        <name>Settings</name>
->>>>>>> 4905a3c (Security should  be update.d)
-    </types>
-    <types>
-        <members>Account</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Lead</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Contact</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Opportunity</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Order</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Case</members>
-        <name>CustomObject</name>
-=======
-        <members>Contract.Foreman_Start_Job__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>Flow</name>
->>>>>>> e1ea0e982d34e70bdc86bbe879ac0d001e81f6ea
-    </types>
-    <types>
-        <members>Account</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Lead</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Contact</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Opportunity</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Order</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Case</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>Profile</name>
     </types>
     <types>
         <members>*</members>
         <name>Role</name>
     </types>
     <types>
+        <members>Case</members>
+        <members>Account</members>
+        <members>Lead</members>
+        <members>Contact</members>
+        <members>Opportunity</members>
+        <members>Order</members>
         <members>Contract</members>
         <name>CustomObject</name>
     </types>
@@ -99,6 +32,7 @@
     </types>
     <types>
         <members>Contract.Select_Products__c</members>
+        <members>Contract.Foreman_Start_Job__c</members>
         <members>Contract.Square_Feet__c</members>
         <members>Contract.Total_Cost__c</members>
         <members>Contract.Estimated_Cost__c</members>
