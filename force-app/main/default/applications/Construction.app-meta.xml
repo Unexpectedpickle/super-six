@@ -19,6 +19,7 @@
     <tabs>standard-Lead</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Product2</tabs>
+    <tabs>Site__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Construction_UtilityBar</utilityBar>
 </CustomApplication>
