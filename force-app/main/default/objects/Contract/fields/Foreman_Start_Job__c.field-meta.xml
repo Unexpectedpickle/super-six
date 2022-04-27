@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Foreman_Start_Job__c</fullName>
     <defaultValue>false</defaultValue>
+    <description>This checkbox is for the foreman to check when he is ready to start working on a job</description>
     <externalId>false</externalId>
     <label>Foreman Start Job</label>
     <trackHistory>false</trackHistory>

@@ -2,5 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Rating</fullName>
     <trackFeedHistory>false</trackFeedHistory>
+    <securityClassification>Confidential</securityClassification>
     <type>Picklist</type>
 </CustomField>
