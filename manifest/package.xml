@@ -5,7 +5,6 @@
         <name>ApexClass</name>
     </types>
     <types>
-
         <members>Contract.Foreman_Start_Job__c</members>
         <name>CustomField</name>
     </types>
@@ -14,7 +13,6 @@
         <name>Flow</name>
        <members>Security</members>
         <name>Settings</name>
-
     </types>
     <types>
         <members>*</members>
