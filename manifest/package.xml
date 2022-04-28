@@ -38,10 +38,14 @@
         <members>Opportunity</members>
         <members>Order</members>
         <members>Contract</members>
+        <members>Site__c</members>
+        <members>Site_Assignment__c</members>
         <name>CustomObject</name>
     </types>
     <types>
         <members>Contract-Contract Layout</members>
+        <members>Site__c-Site Layout</members>
+        <members>Site_Assignment__c-Site Assignment Layout</members>
         <name>Layout</name>
     </types>
     <types>
@@ -64,6 +68,10 @@
     <types>
         <members>*</members>
         <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Site__c</members>
+        <name>CustomTab</name>
     </types>
     <version>54.0</version>
 </Package>
