@@ -9,16 +9,12 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>*</members>
-        <name>Flow</name>
        <members>Security</members>
         <name>Settings</name>
     </types>
     <types>
         <members>*</members>
         <name>Profile</name>
-        <members>Security</members>
-        <name>Settings</name>
     </types>
     <types>
         <members>*</members>
@@ -27,6 +23,16 @@
     <types>
         <members>*</members>
         <name>Role</name>
+    </types>
+    <types>
+        <members>ConstructionDBFolder/duVCeIiFdBgChDucEqrPyXGdaoCEhS</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
+        <members>ConstructionReports/Sites_Report</members>
+        <members>ConstructionReports/New_Sites_with_Site_Assignments_Report</members>
+        <members>ConstructionReports/Accounts_Report_Rvp</members>
+        <name>Report</name>
     </types>
     <types>
         <members>Case</members>
