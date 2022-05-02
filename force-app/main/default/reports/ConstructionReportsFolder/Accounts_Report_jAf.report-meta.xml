@@ -3,11 +3,11 @@
     <aggregates>
         <calculatedFormula>SALES:SUM</calculatedFormula>
         <datatype>number</datatype>
-        <description>Annual Revenue for All Accounts</description>
+        <description>Annual Revenue for Accounts</description>
         <developerName>FORMULA1</developerName>
         <isActive>true</isActive>
         <isCrossBlock>false</isCrossBlock>
-        <masterLabel>Account Annual Revenue</masterLabel>
+        <masterLabel>Annual Revenue</masterLabel>
         <scale>2</scale>
     </aggregates>
     <columns>
@@ -28,16 +28,16 @@
     <columns>
         <field>LAST_UPDATE</field>
     </columns>
-    <description>Accounts grouped by Annual Revenue</description>
+    <description>Report of All Accounts</description>
     <format>Summary</format>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>
-        <field>ACCOUNT.NAME</field>
+        <field>SALES</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>
-        <field>SALES</field>
+        <field>ACCOUNT.NAME</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
     <name>Accounts Report</name>
@@ -53,6 +53,6 @@
     <timeFrameFilter>
         <dateColumn>CREATED_DATE</dateColumn>
         <interval>INTERVAL_CUSTOM</interval>
-        <startDate>2022-04-22</startDate>
+        <startDate>2022-04-25</startDate>
     </timeFrameFilter>
 </Report>

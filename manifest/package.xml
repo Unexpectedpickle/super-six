@@ -5,11 +5,15 @@
         <name>ApexClass</name>
     </types>
     <types>
-        <members>Contract.Foreman_Start_Job__c</members>
-        <name>CustomField</name>
+        <members>*</members>
+        <name>ApexTrigger</name>
     </types>
     <types>
-       <members>Security</members>
+        <members>*</members>
+        <name>ApexTestSuite</name>
+    </types>
+    <types>
+        <members>Security</members>
         <name>Settings</name>
     </types>
     <types>
@@ -25,13 +29,15 @@
         <name>Role</name>
     </types>
     <types>
-        <members>ConstructionDBFolder/duVCeIiFdBgChDucEqrPyXGdaoCEhS</members>
+        <members>ConstructionDBFolder1</members>
+        <members>ConstructionDBFolder1/MFQECIRpmZouOkngOYCECBYwbIpGRO</members>
         <name>Dashboard</name>
     </types>
     <types>
-        <members>ConstructionReports/Sites_Report</members>
-        <members>ConstructionReports/New_Sites_with_Site_Assignments_Report</members>
-        <members>ConstructionReports/Accounts_Report_Rvp</members>
+        <members>ConstructionReportsFolder</members>
+        <members>ConstructionReportsFolder/Sites_Report_WrS</members>
+        <members>ConstructionReportsFolder/New_Sites_with_Site_Assignments_Report_s8r</members>
+        <members>ConstructionReportsFolder/Accounts_Report_jAf</members>
         <name>Report</name>
     </types>
     <types>

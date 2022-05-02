@@ -3,7 +3,7 @@
     <columns>
         <field>CUST_NAME</field>
     </columns>
-    <description>Report of all Sites</description>
+    <description>Sites Report</description>
     <format>Tabular</format>
     <name>Sites Report</name>
     <params>
