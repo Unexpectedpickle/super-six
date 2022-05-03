@@ -18,11 +18,27 @@
     </types>
     <types>
         <members>*</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>*</members>
         <name>Flow</name>
     </types>
     <types>
         <members>*</members>
         <name>Role</name>
+    </types>
+    <types>
+        <members>ConstructionDBFolder1</members>
+        <members>ConstructionDBFolder1/MFQECIRpmZouOkngOYCECBYwbIpGRO</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
+        <members>ConstructionReportsFolder</members>
+        <members>ConstructionReportsFolder/Sites_Report_WrS</members>
+        <members>ConstructionReportsFolder/New_Sites_with_Site_Assignments_Report_s8r</members>
+        <members>ConstructionReportsFolder/Accounts_Report_jAf</members>
+        <name>Report</name>
     </types>
     <types>
         <members>Case</members>
