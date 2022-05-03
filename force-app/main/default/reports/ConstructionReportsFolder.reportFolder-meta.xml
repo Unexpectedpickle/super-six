@@ -2,7 +2,7 @@
 <ReportFolder xmlns="http://soap.sforce.com/2006/04/metadata">
     <folderShares>
         <accessLevel>Manage</accessLevel>
-        <sharedTo>test-zw9ayjyrkkmw@example.com</sharedTo>
+        <sharedTo>test-mzyso6wots4v@example.com</sharedTo><!-- Change to admin username in the org-->
         <sharedToType>User</sharedToType>
     </folderShares>
     <name>Construction Reports</name>
