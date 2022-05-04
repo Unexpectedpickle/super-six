@@ -50,3 +50,6 @@ $RECYCLE.BIN/
 
 # Local environment variables
 .env
+
+# Dashboard user settings
+force-app/main/default/dashboards/
