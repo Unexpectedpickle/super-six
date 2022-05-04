@@ -17,7 +17,10 @@
         <name>Settings</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Admin</members>
+        <members>Architect</members>
+        <members>Civil Engineer</members>
+        <members>Construction Foreman</members>
         <name>Profile</name>
     </types>
     <types>
@@ -25,7 +28,9 @@
         <name>Flow</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Architect</members>
+        <members>Civil_Engineer</members>
+        <members>Construction_Foreman</members>
         <name>Role</name>
     </types>
     <types>
