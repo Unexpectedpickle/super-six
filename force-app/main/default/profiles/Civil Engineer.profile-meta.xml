@@ -889,10 +889,6 @@
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <tabVisibilities>
-        <tab>Site_Assignment__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>Site__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
