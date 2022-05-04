@@ -10,7 +10,7 @@ public class contracthandler {
              if (Contract.contact.LastName == null){
                  currContract.addError('Error: Cannot create a contract without selecting a contact');
              }
-             if (Contract.contact.Phone == null || Contract.contact.Email == null){
+             if (Contract.contact.Phone == null && Contract.contact.Email == null){
                  currContract.addError('Error: Cannot create a contract if the contact does not have a phone number or Email');
              }
          } 
