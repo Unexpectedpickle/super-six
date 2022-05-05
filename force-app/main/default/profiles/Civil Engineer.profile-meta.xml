@@ -894,7 +894,7 @@
     </objectPermissions>
     <tabVisibilities>
         <tab>Site__c</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Account</tab>
