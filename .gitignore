@@ -50,3 +50,7 @@ $RECYCLE.BIN/
 
 # Local environment variables
 .env
+
+# Dashboard/Report user settings
+force-app/main/default/dashboards/
+force-app/main/default/reports/ConstructionReportsFolder.reportFolder-meta.xml
