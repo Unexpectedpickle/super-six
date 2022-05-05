@@ -20,7 +20,7 @@
     <classAccesses>
         <apexClass>SiteDetailExtension</apexClass>
         <enabled>false</enabled>
-    </classAccesses
+    </classAccesses>
     <classAccesses>
         <apexClass>TestDataHelper</apexClass>
         <enabled>false</enabled>
