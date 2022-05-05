@@ -2,7 +2,6 @@
 <DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
     <folderShares>
         <accessLevel>Manage</accessLevel>
-        <!--Change to the admin username in the org-->
         <sharedTo>test-4d5i4a7rx7yg@example.com</sharedTo>
         <sharedToType>User</sharedToType>
     </folderShares>
