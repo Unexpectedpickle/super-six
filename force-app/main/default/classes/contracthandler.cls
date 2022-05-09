@@ -6,6 +6,7 @@ public class contracthandler {
         if no contact is selected prevent creation
         if contact is selected but has no phone number or no Email prevent creation
         */
+
         Set<Contact> Contacts = new Set<Contact>([SELECT ID, Phone, Email FROM Contact]);
         for (Contract contr : Contracts){
             for (Contact con : Contacts){
@@ -15,6 +16,5 @@ public class contracthandler {
 
             }
         }
-
-    }
+}
 }
