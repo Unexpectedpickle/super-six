@@ -4,6 +4,14 @@
         <members>*</members>
         <name>ApexClass</name>
     </types>
+    <<types>
+        <members>*</members>
+        <name>ApexComponent</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexPage</name>
+    </types>
     <types>
         <members>*</members>
         <name>ApexTrigger</name>
@@ -87,6 +95,10 @@
     <types>
         <members>Site__c</members>
         <name>CustomTab</name>
+    </types>
+    <types>
+        <members>work_poster</members>
+        <name>StaticResource</name>
     </types>
     <version>54.0</version>
 </Package>
