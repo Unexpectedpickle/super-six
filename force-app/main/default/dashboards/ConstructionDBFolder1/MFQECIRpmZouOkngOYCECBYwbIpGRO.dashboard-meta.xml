@@ -114,10 +114,10 @@
     <dashboardType>SpecifiedUser</dashboardType>
     <description>Dashboard for Construction Home Page</description>
     <isGridLayout>true</isGridLayout>
+    <!--we need this-->
     <runningUser>test-4d5i4a7rx7yg@example.com</runningUser>
     <textColor>#000000</textColor>
     <title>Construction Dashboard</title>
     <titleColor>#000000</titleColor>
     <titleSize>12</titleSize>
-    
 </Dashboard>
