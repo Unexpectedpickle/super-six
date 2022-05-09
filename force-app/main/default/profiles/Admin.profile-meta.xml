@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <classAccesses>
-        <apexClass>contracthandler</apexClass>
+        <apexClass>ContractContactHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>contracthandlerTest</apexClass>
+        <apexClass>SiteAssignmentHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SiteAssignmentHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SiteDetailExtensionTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>TestDataHelper</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <custom>false</custom>
@@ -461,6 +473,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Contract.Estimated_Cost__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contract.Foreman_Start_Job__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contract.Job_Completed__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Contract.Name</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -754,6 +781,11 @@
         <field>Order.Type</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Site_Assignment__c.Person__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Contract-Contract Layout</layout>
     </layoutAssignments>
@@ -820,6 +852,28 @@
         <object>Order</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Site_Assignment__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Site__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <tabVisibilities>
+        <tab>Site__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Account</tab>
         <visibility>DefaultOn</visibility>

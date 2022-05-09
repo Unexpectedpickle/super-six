@@ -1,0 +1,13 @@
+<apex:page controller="SiteDetailExtension">
+    <apex:pageBlock title="Site Assignment Table">
+        <apex:pageBlockTable value="{!all_sites_list}" var="site">
+            <apex:column headerValue="Site Name" value="{!site.site_name}" />
+            <apex:column headerValue="Assigned to Site" value="{!site.all_users}" />
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+    <apex:pageBlock >
+        <div style='text-align:center'>
+            <apex:image url="{!$Resource.work_poster}" alt="Motivation Image" width="224" height="316" />
+        </div>
+    </apex:pageBlock>
+</apex:page>

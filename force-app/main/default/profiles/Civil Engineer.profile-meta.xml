@@ -6,11 +6,19 @@
         <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
+        <apexClass>ContractContactHandler</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>SiteAssignmentHandler</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>SiteAssignmentHandlerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SiteDetailExtensionTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -793,7 +801,10 @@
         <field>Order.Type</field>
         <readable>true</readable>
     </fieldPermissions>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 39f240e348c84658edf3867aafc2f3d6fc7ecd65
     <fieldPermissions>
         <editable>false</editable>
         <field>Site_Assignment__c.Person__c</field>
@@ -871,7 +882,10 @@
         <object>Order</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 39f240e348c84658edf3867aafc2f3d6fc7ecd65
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>

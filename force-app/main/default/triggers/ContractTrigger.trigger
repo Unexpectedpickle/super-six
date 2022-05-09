@@ -5,6 +5,7 @@ trigger ContractTrigger on Contract (before insert, before update, after insert 
        contracthandler.preventContractCreation(trigger.new);
      }
      when BEFORE_UPDATE {
+         ContractContactHandler.ContractEmail(trigger.new);
 
      }
      when AFTER_INSERT {
@@ -12,4 +13,4 @@ trigger ContractTrigger on Contract (before insert, before update, after insert 
      }
  }
  
-}   
+}

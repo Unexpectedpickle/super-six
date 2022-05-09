@@ -6,11 +6,19 @@
         <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
+        <apexClass>ContractContactHandler</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>SiteAssignmentHandler</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>SiteAssignmentHandlerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SiteDetailExtensionTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -474,9 +482,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Contract.Foreman_Start_Job__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
