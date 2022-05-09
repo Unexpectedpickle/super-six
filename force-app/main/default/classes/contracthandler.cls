@@ -1,19 +1,20 @@
 public class contracthandler {
-    public static void preventContractCreation() {
+
+     public static void preventContractCreation(List<Contract> Contracts) {
         /*prevent the creation of contract if no contact is selected or if contact has no phone number or Email.
         get set of contracts
         if no contact is selected prevent creation
         if contact is selected but has no phone number or no Email prevent creation
         */
-        Set<Contract> Contracts = new Set<Contract>([SELECT ID, (SELECT LastName, Phone, Email FROM Contact)FROM Contract]);
-         for (contract currContract : Contracts){
-             if (Contract.contact.LastName == null){
-                 currContract.addError('Error: Cannot create a contract without selecting a contact');
-             }
-             if (Contract.contact.Phone == null || Contract.contact.Email == null){
-                 currContract.addError('Error: Cannot create a contract if the contact does not have a phone number or Email');
-             }
-         } 
+        Set<Contact> Contacts = new Set<Contact>([SELECT ID, Phone, Email FROM Contact]);
+        for (Contract contr : Contracts){
+            for (Contact con : Contacts){
+                if(con.Phone== null && con.Email == null){
+                    contr.addError('Error: Cannot create Contract if Contact does not have an Email and a phone number');
+                }
+
+            }
+        }
 
     }
 }
