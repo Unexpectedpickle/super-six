@@ -1,0 +1,34 @@
+<apex:page controller="ContractsTableController" >
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Save"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockTable value="{!wrappedContracts}" var="wContract">
+                <apex:column value="{!wContract.wrappedContract.ContractNumber}" headerValue="Contract Number"/>
+                <apex:column headerValue="Contract Status">
+                    <apex:outputField value="{!wContract.wrappedContract.Status}">
+                        <apex:inlineEditSupport />
+                    </apex:outputField>
+                </apex:column>
+                <apex:column headerValue="Square Feet">
+                    <apex:outputField value="{!wContract.wrappedContract.Square_Feet__c}">
+                        <apex:inlineEditSupport />
+                    </apex:outputField>
+                </apex:column>
+                <apex:column value="{!wContract.wrappedContract.Estimated_Cost__c}" headerValue="Estimated Cost"/>
+                <apex:column value="{!wContract.wrappedContact.Name}" headerValue="Contact Name"/>
+                <apex:column headerValue="Contact Phone Number">
+                    <apex:outputField value="{!wContract.wrappedContact.Phone}">
+                        <apex:inlineEditSupport />
+                    </apex:outputField>
+                </apex:column>
+                <apex:column headerValue="Contact Email">
+                    <apex:outputField value="{!wContract.wrappedContact.Email}">
+                        <apex:inlineEditSupport />
+                    </apex:outputField>
+                </apex:column>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
