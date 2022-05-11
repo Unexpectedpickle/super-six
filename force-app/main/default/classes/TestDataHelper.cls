@@ -26,4 +26,13 @@ public class TestDataHelper {
         }
         return site_junctions;
     }
+
+    public static List<Contract> createContracts(Integer numContracts) {
+        List<Contract> contractList = new List<Contract>();
+
+        for(Integer i = 0; i<numContracts; i++) {
+            contractList.add(new Contract(name = 'Contract' + i));
+        }
+        return contractList;
+    }
 }
