@@ -3,6 +3,8 @@
     <folderShares>
         <accessLevel>Manage</accessLevel>
         <sharedTo>test-ntuwbfbjn5zq@example.com</sharedTo><!-- Change to admin username in the org-->
+        <!---->
+        <sharedTo>test-4d5i4a7rx7yg@example.com</sharedTo>
         <sharedToType>User</sharedToType>
     </folderShares>
     <name>Construction Reports</name>

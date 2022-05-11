@@ -12,6 +12,12 @@ trigger ContractTrigger on Contract (before insert, before update, after insert)
      }
      when BEFORE_UPDATE {
         SiteAreaConversionHandler.convertArea(Trigger.new);
+       
+       contracthandler.preventContractCreation(Trigger.new);
+     }
+     when BEFORE_UPDATE {
+         ContractContactHandler.ContractEmail(Trigger.new);
+
      }
      when AFTER_INSERT {
          
