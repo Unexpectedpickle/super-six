@@ -23,7 +23,7 @@ public class SiteAreaConversionHandler {
                 numToConvert = cont.Area_Acres__c * 43560;
                 cont.Square_Feet__c = numToConvert;
             }
-            return contractList;
         }
+        return contractList;
     }
 }

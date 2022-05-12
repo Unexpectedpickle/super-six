@@ -31,7 +31,7 @@ public class TestDataHelper {
         List<Contract> contractList = new List<Contract>();
 
         for(Integer i = 0; i<numContracts; i++) {
-            contractList.add(new Contract(name = 'Contract' + i));
+            contractList.add(new Contract(name = 'Contract' + i, square_feet__c = 43560));
         }
         return contractList;
     }

@@ -9,7 +9,9 @@ public class SiteAreaConversionTest {
     List<Contract> testContracts = TestDataHelper.createContracts(5);
 
     @isTest
-    public static List<Contract> TB_convertArea() {
+    public static void TB_convertArea() {
+        List<Contract> testContracts = TestDataHelper.createContracts(1);
         SiteAreaConversionHandler.convertArea(testContracts);
+        System.assertEquals(1, testContracts[0].Area_Acres__c);
     }
 }
