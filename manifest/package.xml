@@ -48,6 +48,7 @@
     </types>
     <types>
         <members>ConstructionReportsFolder</members>
+        <members>ConstructionReportsFolder/Contracts_Report_cc8</members>
         <members>ConstructionReportsFolder/Sites_Report_WrS</members>
         <members>ConstructionReportsFolder/New_Sites_with_Site_Assignments_Report_s8r</members>
         <members>ConstructionReportsFolder/Accounts_Report_jAf</members>
