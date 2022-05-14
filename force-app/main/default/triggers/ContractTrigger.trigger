@@ -9,10 +9,10 @@ trigger ContractTrigger on Contract (before insert, before update, after insert)
  switch on Trigger.operationType {
      when BEFORE_INSERT {
         SiteAreaConversionHandler.convertArea(Trigger.new);
+        contracthandler.preventContractCreation(Trigger.new);
      }
      when BEFORE_UPDATE {
         SiteAreaConversionHandler.convertArea(Trigger.new);
-        contracthandler.preventContractCreation(Trigger.new);
         ContractContactHandler.ContractEmail(Trigger.new);
      }
      when AFTER_INSERT {
