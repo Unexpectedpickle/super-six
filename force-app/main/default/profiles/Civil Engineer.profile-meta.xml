@@ -919,6 +919,7 @@
     <pageAccesses>
         <apexPage>AccountsWithContracts</apexPage>
         <enabled>false</enabled>
+    </pageAccesses>
     <pageAccesses>
         <apexPage>ContractList</apexPage>
         <enabled>false</enabled>
