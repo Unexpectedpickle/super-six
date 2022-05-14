@@ -21,6 +21,10 @@
         <name>ApexTestSuite</name>
     </types>
     <types>
+        <members>Case</members>
+        <name>AssignmentRules</name>
+    </types>
+    <types>
         <members>Security</members>
         <name>Settings</name>
     </types>
@@ -64,6 +68,7 @@
         <members>Contract</members>
         <members>Site__c</members>
         <members>Site_Assignment__c</members>
+        <members>Contract_Event__e</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -101,6 +106,10 @@
     <types>
         <members>work_poster</members>
         <name>StaticResource</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Queue</name>
     </types>
     <version>54.0</version>
 </Package>
