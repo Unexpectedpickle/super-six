@@ -5,8 +5,8 @@
 -->
 
 <apex:page standardController="Case" recordSetVar="cases" extensions="CaseFilterExtension">
-    <apex:form>
-        <apex:pageBlock>
+    <apex:form >
+        <apex:pageBlock >
             
             <apex:outputText value="Search: " />
             <apex:inputText value="{!filter}" >

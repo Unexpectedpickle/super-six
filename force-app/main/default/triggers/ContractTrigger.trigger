@@ -19,4 +19,4 @@ trigger ContractTrigger on Contract (before insert, before update, after insert)
          
      }
  }
-}   
+}
