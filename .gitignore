@@ -52,7 +52,7 @@ $RECYCLE.BIN/
 .env
 
 # Dashboard/Report user settings
-# force-app/main/default/dashboards/
-#force-app/main/default/reports/ConstructionReportsFolder.reportFolder-meta.xml
-#force-app/main/default/dashboards/ConstructionDBFolder1.dashboardFolder-meta.xml
-#force-app/main/default/dashboards/ConstructionDBFolder1/MFQECIRpmZouOkngOYCECBYwbIpGRO.dashboard-meta.xml
+force-app/main/default/dashboards/
+force-app/main/default/reports/ConstructionReportsFolder.reportFolder-meta.xml
+force-app/main/default/dashboards/ConstructionDBFolder1.dashboardFolder-meta.xml
+force-app/main/default/dashboards/ConstructionDBFolder1/MFQECIRpmZouOkngOYCECBYwbIpGRO.dashboard-meta.xml

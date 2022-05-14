@@ -35,4 +35,19 @@ public class TestDataHelper {
         }
         return contractList;
     }
+    
+    public static List<Contract_Event__e> createEvents(Integer numEvents) {
+        List<Contract_Event__e> event_list = new List<Contract_Event__e>();
+        for (Integer i = 0; i < numEvents; i++) {
+            event_list.add(buildContractEvent(null, true));
+        }
+        return event_list;
+    }
+    
+    public static Contract_Event__e buildContractEvent(String description, Boolean active) {
+        Contract_Event__e newEvent = new Contract_Event__e();
+        newEvent.Description__c = description;
+        newEvent.Active_Contract__c = active;
+        return newEvent;
+    }
 }

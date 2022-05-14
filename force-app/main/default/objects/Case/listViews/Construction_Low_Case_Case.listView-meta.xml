@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Construction_Low_Case_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Construction Low Case</label>
+    <queue>Construction_Low_Case</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>
