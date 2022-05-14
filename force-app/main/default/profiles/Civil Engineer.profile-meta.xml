@@ -492,6 +492,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Contract.Discount_Estimated_Cost__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Contract.EndDate</field>
         <readable>true</readable>
@@ -919,10 +924,10 @@
     <pageAccesses>
         <apexPage>AccountsWithContracts</apexPage>
         <enabled>false</enabled>
+    </pageAccesses>
     <pageAccesses>
         <apexPage>ContractList</apexPage>
         <enabled>false</enabled>
-    </pageAccesses>
     </pageAccesses>
     <pageAccesses>
         <apexPage>SiteDetail</apexPage>

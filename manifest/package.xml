@@ -78,6 +78,7 @@
         <members>Contract.Square_Feet__c</members>
         <members>Contract.Total_Cost__c</members>
         <members>Contract.Estimated_Cost__c</members>
+        <members>Contract.Discount_Estimated_Cost__c</members>
         <members>Contract.Job_Completed__c</members>
         <name>CustomField</name>
     </types>
