@@ -1,0 +1,28 @@
+<!--
+    VF page displays cases
+    Included in the initial table: Account Name, Contact Name, Type, Priority, Reason
+    Should filter by all included fields
+-->
+
+<apex:page standardController="Case" recordSetVar="cases" extensions="CaseFilterExtension">
+    <apex:form>
+        <apex:pageBlock>
+            
+            <apex:outputText value="Search: " />
+            <apex:inputText value="{!filter}" >
+                <apex:actionSupport event="onkeyup" action="{!filteredList}" reRender="table" />
+            </apex:inputText>
+
+            <apex:outputPanel id="table">
+                <apex:pageBlockTable value="{!displayedCases}" var="case">
+                    <apex:column value="{!case.Account.name}" />
+                    <apex:column value="{!case.Contact.name}" />
+                    <apex:column value="{!case.Priority}" />
+                    <apex:column value="{!case.Reason}" />
+                    <apex:column value="{!case.Type}" />
+                </apex:pageBlockTable>
+            </apex:outputPanel>
+
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

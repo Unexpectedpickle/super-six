@@ -10,6 +10,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>ContractsTableController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>SiteAssignmentHandler</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -498,9 +502,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Contract.Foreman_Start_Job__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -915,6 +919,10 @@
     <pageAccesses>
         <apexPage>AccountsWithContracts</apexPage>
         <enabled>false</enabled>
+    <pageAccesses>
+        <apexPage>ContractList</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
     </pageAccesses>
     <pageAccesses>
         <apexPage>SiteDetail</apexPage>
@@ -1072,10 +1080,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ExportReport</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>FieldServiceAccess</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
