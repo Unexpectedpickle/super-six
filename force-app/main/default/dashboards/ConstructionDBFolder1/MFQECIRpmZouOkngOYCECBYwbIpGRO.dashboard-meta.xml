@@ -114,8 +114,8 @@
     <dashboardType>SpecifiedUser</dashboardType>
     <description>Dashboard for Construction Home Page</description>
     <isGridLayout>true</isGridLayout>
-    <!---->
-    <runningUser>test-4d5i4a7rx7yg@example.com</runningUser>
+    <!-- Should change itself if not just replace with the admin username in org-->
+    <runningUser>test-ntuwbfbjn5zq@example.com</runningUser>
     <textColor>#000000</textColor>
     <title>Construction Dashboard</title>
     <titleColor>#000000</titleColor>
