@@ -21,6 +21,10 @@
         <name>ApexTestSuite</name>
     </types>
     <types>
+        <members>Case</members>
+        <name>AssignmentRules</name>
+    </types>
+    <types>
         <members>Security</members>
         <name>Settings</name>
     </types>
@@ -48,6 +52,7 @@
     </types>
     <types>
         <members>ConstructionReportsFolder</members>
+        <members>ConstructionReportsFolder/Contracts_Report_cc8</members>
         <members>ConstructionReportsFolder/Sites_Report_WrS</members>
         <members>ConstructionReportsFolder/New_Sites_with_Site_Assignments_Report_s8r</members>
         <members>ConstructionReportsFolder/Accounts_Report_jAf</members>
@@ -63,6 +68,7 @@
         <members>Contract</members>
         <members>Site__c</members>
         <members>Site_Assignment__c</members>
+        <members>Contract_Event__e</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -77,6 +83,7 @@
         <members>Contract.Square_Feet__c</members>
         <members>Contract.Total_Cost__c</members>
         <members>Contract.Estimated_Cost__c</members>
+        <members>Contract.Discount_Estimated_Cost__c</members>
         <members>Contract.Job_Completed__c</members>
         <name>CustomField</name>
     </types>
@@ -99,6 +106,10 @@
     <types>
         <members>work_poster</members>
         <name>StaticResource</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Queue</name>
     </types>
     <version>54.0</version>
 </Package>

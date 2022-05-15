@@ -1,0 +1,16 @@
+<apex:page controller="accountWContractsController">
+    <!--Create table of Accounts and the number of associated Contracts -->
+    <apex:pageBlock >
+        <apex:form >
+        <apex:outputPanel id="table">
+        <apex:inputText value="{!filter}">
+        <apex:actionSupport event="onkeyup" action="{!filterWrap}" reRender="table" />
+        </apex:inputText>
+        <apex:pageBlockTable value="{!displayContract}" var="accContract">
+            <apex:column value="{!accContract.wrappedCountContract_Id}" headerValue="Contract Count" />
+            <apex:column value="{!accContract.wrappedAccount_Name.Name}" headerValue="Account Name" />
+        </apex:pageBlockTable>
+        </apex:outputPanel>
+        </apex:form>
+    </apex:pageBlock>
+</apex:page>

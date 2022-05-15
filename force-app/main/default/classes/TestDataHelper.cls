@@ -26,4 +26,28 @@ public class TestDataHelper {
         }
         return site_junctions;
     }
+
+    public static List<Contract> createContracts(Integer numContracts) {
+        List<Contract> contractList = new List<Contract>();
+
+        for(Integer i = 0; i<numContracts; i++) {
+            contractList.add(new Contract(name = 'Contract' + i, square_feet__c = 43560));
+        }
+        return contractList;
+    }
+    
+    public static List<Contract_Event__e> createEvents(Integer numEvents) {
+        List<Contract_Event__e> event_list = new List<Contract_Event__e>();
+        for (Integer i = 0; i < numEvents; i++) {
+            event_list.add(buildContractEvent(null, true));
+        }
+        return event_list;
+    }
+    
+    public static Contract_Event__e buildContractEvent(String description, Boolean active) {
+        Contract_Event__e newEvent = new Contract_Event__e();
+        newEvent.Description__c = description;
+        newEvent.Active_Contract__c = active;
+        return newEvent;
+    }
 }

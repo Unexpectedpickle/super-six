@@ -3,5 +3,5 @@
     <apiVersion>54.0</apiVersion>
     <availableInTouch>true</availableInTouch>
     <confirmationTokenRequired>false</confirmationTokenRequired>
-    <label>SiteDetail</label>
+    <label>AccountsWithContracts</label>
 </ApexPage>

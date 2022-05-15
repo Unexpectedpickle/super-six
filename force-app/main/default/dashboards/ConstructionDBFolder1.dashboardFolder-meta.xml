@@ -2,8 +2,7 @@
 <DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
     <folderShares>
         <accessLevel>Manage</accessLevel>
-        <!---->
-        <sharedTo>test-4d5i4a7rx7yg@example.com</sharedTo>
+        <sharedTo>test-yj3enoi1cc3v@example.com</sharedTo>
         <sharedToType>User</sharedToType>
     </folderShares>
     <name>ConstructionDBFolder</name>
