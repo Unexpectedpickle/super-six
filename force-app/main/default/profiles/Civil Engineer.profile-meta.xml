@@ -965,13 +965,10 @@
         <apexPage>AccountsWithContracts</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
-<<<<<<< HEAD
-=======
     <pageAccesses>
         <apexPage>CaseFilter</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
->>>>>>> 8bbbc7288aed84fec377af10a41d7f30cc02e2b9
     <pageAccesses>
         <apexPage>ContractList</apexPage>
         <enabled>false</enabled>
