@@ -7,20 +7,36 @@ static void makeData(){
        insert acc;
        //Create Contract
         TestDataHelper.createContracts(2);
-   
-       //Associate Account Id with Contract CustomerSigned Id
-       acc.Id = contractList.CustomerSignedId;
+       
 }
 
     
     @isTest
-    public static void TPaccountWContractsControllerTest() {
+    public static void accountWContractsControllerTest() {
     Test.startTest();
-    //Test that Filter works
-    accountWithContractsController accountWContractsController = new accountWContractsController();
-    Test.stopTest();
-    System.assert(accountWContractsController.displayContract, 'Test Account', 1);
+    //Test that display works for Account Name
+    accountWContractsController accountWContractsController = new accountWContractsController();
+    for(Integer i; i<accountWContractsController.displayContract.size(); i++){
+        if(accountWContractsController.displayContract.get(i).wrappedAccount_Name.Name == 'Test Account'){
+            System.assert(true);
+        }
 
     }
-}
+    Test.stopTest();
+    }
+     @isTest
+        public static void filteredContractTest(){
+            Test.startTest();
+            //test that the display works for Contract Count
+         accountWContractsController accountWContractsController = new accountWContractsController();
+    for(Integer i; i<accountWContractsController.displayContract.size(); i++){
+        if(accountWContractsController.displayContract.get(i).wrappedCountContract_Id == 2){
+            System.assert(true);
+           
+            }
+        Test.stopTest();
+        }
 
+    
+}
+}
