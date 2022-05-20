@@ -15,6 +15,10 @@ public with sharing class CaseFilterExtension {
         for(Case ca : cases) {
             if(ca.Priority.Contains(filter)) {
                 filteredCases.add(ca);
+            }else if(ca.Type.Contains(filter)) {
+                filteredCases.add(ca);
+            }else if(ca.Reason.Contains(filter)) {
+                filteredCases.add(ca);
             }
         }
         displayedCases = filteredCases;
