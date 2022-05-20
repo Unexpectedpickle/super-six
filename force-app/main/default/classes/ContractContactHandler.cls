@@ -13,9 +13,10 @@ public with sharing class ContractContactHandler {
                     if (contactEmail(con) == false) {
                         con.Email = defaultEmail;
                         toUpdate.add(con);
+                        sendEmailForeman();
                     }
                 }
-                sendEmailForeman();
+                
             }
         }
         Update toUpdate;

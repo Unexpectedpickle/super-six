@@ -1,5 +1,5 @@
 @isTest
-public class SiteDetailExtensionTest {
+public class SiteDetailControllerTest {
     
     @testSetup
     public static void setupTests() {
@@ -15,7 +15,7 @@ public class SiteDetailExtensionTest {
     @isTest
     public static void testConstructorPositive() {
         Test.startTest();
-        SiteDetailExtension controller = new SiteDetailExtension();
+        SiteDetailController controller = new SiteDetailController();
         Test.stopTest();
         System.assert(!controller.all_sites_list.isEmpty(), 'No sites retrieved from controller');
     }
