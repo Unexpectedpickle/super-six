@@ -1,4 +1,4 @@
-<apex:page controller="SiteDetailExtension">
+<apex:page controller="SiteDetailController">
     <apex:pageBlock title="Site Assignment Table">
         <apex:pageBlockTable value="{!all_sites_list}" var="site">
             <apex:column headerValue="Site Name" value="{!site.site_name}" />
