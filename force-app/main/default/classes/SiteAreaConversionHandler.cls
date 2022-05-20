@@ -19,7 +19,8 @@ public class SiteAreaConversionHandler {
             if(cont.Area_Acres__c == null) {
                 numToConvert = cont.Square_Feet__c * 0.0000229568;
                 cont.Area_Acres__c = numToConvert;
-            } else if(cont.Square_Feet__c == null) {
+            } 
+            if(cont.Square_Feet__c == null) {
                 numToConvert = cont.Area_Acres__c * 43560;
                 cont.Square_Feet__c = numToConvert;
             }

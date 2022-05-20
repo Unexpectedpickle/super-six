@@ -27,11 +27,20 @@ public class TestDataHelper {
         return site_junctions;
     }
 
-    public static List<Contract> createContracts(Integer numContracts) {
+    public static List<Contract> createContractsWithSquareFeet(Integer numContracts) {
         List<Contract> contractList = new List<Contract>();
 
         for(Integer i = 0; i<numContracts; i++) {
-            contractList.add(new Contract(name = 'Contract' + i, square_feet__c = 43560));
+            contractList.add(new Contract(name = 'Contract' + i, Square_Feet__c = 43560));
+        }
+        return contractList;
+    }
+
+    public static List<Contract> createContractsWithAreaAcres(Integer numContracts) {
+        List<Contract> contractList = new List<Contract>();
+
+        for(Integer i = 0; i<numContracts; i++) {
+            contractList.add(new Contract(name = 'Contract' + i, Area_Acres__c = 0.0000229568));
         }
         return contractList;
     }
