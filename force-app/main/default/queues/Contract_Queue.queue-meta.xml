@@ -3,6 +3,11 @@
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>Contract Queue</name>
     <queueMembers>
+        <roles>
+            <role>Architect</role>
+            <role>Civil_Engineer</role>
+        </roles>
+    </queueMembers>
     <queueSobject>
         <sobjectType>Task</sobjectType>
     </queueSobject>
