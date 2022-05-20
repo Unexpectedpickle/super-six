@@ -3,6 +3,11 @@
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>Construction Medium Case</name>
     <queueMembers>
+        <roles>
+            <role>Civil_Engineer</role>
+            <role>Construction_Foreman</role>
+        </roles>
+    </queueMembers>
     <queueSobject>
         <sobjectType>Case</sobjectType>
     </queueSobject>
