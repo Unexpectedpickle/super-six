@@ -2,6 +2,7 @@
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>Construction High Prio Case</name>
+    <queueMembers>
     <queueSobject>
         <sobjectType>Case</sobjectType>
     </queueSobject>

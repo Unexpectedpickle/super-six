@@ -3,6 +3,7 @@
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>Construction Low Case</name>
     <queueSobject>
+    <queueMembers>
         <sobjectType>Case</sobjectType>
     </queueSobject>
 </Queue>
