@@ -8,7 +8,7 @@ public class accountWContractsController {
     public List<contractWrapper> displayContract {get;set;}
 
     public string filter {get;set;}
-    private class contractWrapper{
+    @testVisible private class contractWrapper{
         public Integer wrappedCountContract_Id{get;set;}
         public Account wrappedAccount_Name{get;set;}
         //public List<contractWrapper> wrappedcontract = new List<contractWrapper>();

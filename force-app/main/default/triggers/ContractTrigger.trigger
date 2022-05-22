@@ -1,5 +1,5 @@
 /*
-    Created by: Daven Horne, Grant Welton
+    Created by: Daven Horne, Grant Welton, and Kyle Stetz
     Description: Trigger for Contract sObject
     Date Created: 6 May, 2022
     Last Update: 6 May, 2022

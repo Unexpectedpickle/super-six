@@ -66,6 +66,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>accountWContractsControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>contracthandler</apexClass>
         <enabled>false</enabled>
     </classAccesses>
